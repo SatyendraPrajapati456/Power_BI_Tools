@@ -19,15 +19,10 @@ Power_BI_Tools/
 │
 ├── 📂 Uber DashBoard/                      # Uber Ride Operations Dashboard (.pbix + screenshots)
 │   ├── 📊 Uber Dashboard.pbix
-│   ├── 🖼️ <img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/9e97d654-dea4-4247-a7c8-762d39b0e2db" />
-  # Overview KPIs
-│   ├── 🖼️ <img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/1e606e80-60bd-4b06-b465-2029afe90a20" />
- # Demand & Trends
-│   ├── 🖼️ <img width="1292" height="731" alt="Screenshot 2026-03-30 231748" src="https://github.com/user-attachments/assets/0b1655f7-48c4-4148-b315-39d4e70a472e" />
-  # Supply & Ops / Customization
-│   └── 🖼️ <img width="1293" height="732" alt="Screenshot 2026-03-30 231719" src="https://github.com/user-attachments/assets/bf2f0de4-9803-43cc-abe6-599b8fa3b690" />
-  # Geography & Performance
-│
+│   ├── 🖼️ Screenshot 2025-08-19 204443.png  # Overview KPIs
+│   ├── 🖼️ Screenshot 2025-08-19 204505.png  # Demand & Trends
+│   ├── 🖼️ Screenshot 2025-08-19 204521.png  # Supply & Ops / Customization
+│   └── 🖼️ Screenshot 2025-08-19 205057.png  # Geography & Performance
 └── 📄 README.md
 ```
 
@@ -51,23 +46,30 @@ This project empowers **operations teams and city managers** to:
 
 #### 🔹 Overview — Executive KPIs
 
-![Uber Dashboard Overview](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204443.png?raw=true)
+![Uber Dashboard Overview]
+<img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/adfd0ba8-3871-464a-b3fd-336a99201576" />
+
 
 > The main overview page presents all critical KPIs at a glance — total trips, active drivers, completion rate, cancellation rate, and revenue — with quick-filter slicers for time, city, and product type.
 
 ---
 
 #### 🔹 Demand & Trend Analysis
+<img width="1292" height="731" alt="Screenshot 2026-03-30 231748" src="https://github.com/user-attachments/assets/52a86ed6-df79-43ea-9493-8e2a82283ebc" />
 
-![Demand Trends](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204505.png?raw=true)
+![Demand Trends]
+
+
 
 > Hourly and weekly seasonality charts with rolling averages and period-over-period comparisons to identify peak demand windows and growth trends.
 
 ---
 
 #### 🔹 Supply, Operations & Customization
+<img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/22ca9132-74b0-45c1-a40d-06773db22d4f" />
 
-![Supply and Operations](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204521.png?raw=true)
+![Supply and Operations]
+
 
 > Driver availability, ETA tracking, surge window monitoring, and completion rate breakdowns — plus how to add/modify filters using Edit Interactions and Sync Slicers.
 
@@ -75,7 +77,8 @@ This project empowers **operations teams and city managers** to:
 
 #### 🔹 Geography, Performance & Cancellations
 
-![Geography and Cancellations](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20205057.png?raw=true)
+![Geography and Cancellations]
+<img width="1293" height="732" alt="Screenshot 2026-03-30 231719" src="https://github.com/user-attachments/assets/0219aea3-35a8-4699-bd23-583523291286" />
 
 > City/zone heatmaps, demand concentration maps, top/bottom performing areas, and cancellation trend drill-through diagnostics.
 
