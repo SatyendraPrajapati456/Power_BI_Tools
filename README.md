@@ -1,11 +1,14 @@
 # 📊 Power BI Tools
 
-> A curated collection of professional Power BI dashboards and data analytics projects — built for real-world operations, insights, and decision-making.
+> A curated collection of professional **Power BI dashboards** and real-world data analytics projects — designed to surface actionable insights for operations, retail, and city teams.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20Query-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
 
 ---
 
@@ -13,8 +16,15 @@
 
 ```
 Power_BI_Tools/
-├── 📂 Uber DashBoard/          # Uber Operations Analytics Dashboard (.pbix)
-├── 📄 BlinkIT Grocery Data Excel.xlsx   # Source data for BlinkIT grocery analysis
+│
+├── 📂 Uber DashBoard/                      # Uber Ride Operations Dashboard (.pbix + screenshots)
+│   ├── 📊 Uber Dashboard.pbix
+│   ├── 🖼️ Screenshot 2025-08-19 204443.png  # Overview KPIs
+│   ├── 🖼️ Screenshot 2025-08-19 204505.png  # Demand & Trends
+│   ├── 🖼️ Screenshot 2025-08-19 204521.png  # Supply & Ops / Customization
+│   └── 🖼️ Screenshot 2025-08-19 205057.png  # Geography & Performance
+│
+├── 📄 BlinkIT Grocery Data Excel.xlsx      # Source dataset for BlinkIT grocery analytics
 └── 📄 README.md
 ```
 
@@ -22,197 +32,218 @@ Power_BI_Tools/
 
 ## 🚗 Project 1 — Uber Operations Dashboard
 
-A comprehensive Power BI dashboard designed to analyze Uber ride operations and surface actionable insights across **demand, supply, geography, and product performance**.
+A comprehensive **Power BI dashboard** built to analyze Uber ride operations and surface actionable insights across demand, supply, geography, and product performance.
 
-This project is built to help **operations and city teams** identify peak periods, reduce cancellations, improve driver utilization, and make data-driven decisions at scale.
+This project empowers **operations teams and city managers** to:
+- Identify peak demand windows 🕐
+- Reduce cancellations and improve rider experience ❌➡️✅
+- Optimize driver utilization 🚗
+- Make data-driven operational decisions 📈
 
 ---
 
 ### 🖼️ Dashboard Screenshots
 
-**Overview Page — Executive KPIs**
+---
 
-![Uber Dashboard Overview](https://raw.githubusercontent.com/SatyendraPrajapati456/Power_BI_Tools/main/Uber%20DashBoard/Screenshot%202025-08-19%20204443.png)
+#### 🔹 Overview — Executive KPIs
 
-> The main overview page shows all critical KPIs at a glance — total trips, driver utilization, completion rate, and more with quick-filter slicers.
+![Uber Dashboard Overview](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204443.png?raw=true)
+
+> The main overview page presents all critical KPIs at a glance — total trips, active drivers, completion rate, cancellation rate, and revenue — with quick-filter slicers for time, city, and product type.
 
 ---
 
-**Demand & Trend Analysis**
+#### 🔹 Demand & Trend Analysis
 
-![Demand Trends](https://raw.githubusercontent.com/SatyendraPrajapati456/Power_BI_Tools/main/Uber%20DashBoard/Screenshot%202025-08-19%20204505.png)
+![Demand Trends](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204505.png?raw=true)
 
-> Hourly and weekly seasonality charts with rolling averages and period-over-period comparisons to identify peak demand windows.
-
----
-
-**Supply & Operations View**
-
-![Supply Operations](https://raw.githubusercontent.com/SatyendraPrajapati456/Power_BI_Tools/main/Uber%20DashBoard/Screenshot%202025-08-19%20204521.png)
-
-> Driver availability, ETA tracking, surge windows, and completion rate breakdown for operational monitoring.
+> Hourly and weekly seasonality charts with rolling averages and period-over-period comparisons to identify peak demand windows and growth trends.
 
 ---
 
-**Geography & Cancellations**
+#### 🔹 Supply, Operations & Customization
 
-![Geography View](https://raw.githubusercontent.com/SatyendraPrajapati456/Power_BI_Tools/main/Uber%20DashBoard/Screenshot%202025-08-19%20205057.png)
+![Supply and Operations](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20204521.png?raw=true)
 
-> City/zone heatmaps, demand concentration maps, and cancellation trend drill-through diagnostics.
+> Driver availability, ETA tracking, surge window monitoring, and completion rate breakdowns — plus how to add/modify filters using Edit Interactions and Sync Slicers.
+
+---
+
+#### 🔹 Geography, Performance & Cancellations
+
+![Geography and Cancellations](https://github.com/SatyendraPrajapati456/Power_BI_Tools/blob/main/Uber%20DashBoard/Screenshot%202025-08-19%20205057.png?raw=true)
+
+> City/zone heatmaps, demand concentration maps, top/bottom performing areas, and cancellation trend drill-through diagnostics.
 
 ---
 
 ### ✨ Features
 
-#### ⏱️ Time Intelligence
-- Peak demand analysis by **hour, weekday, and season**
-- Trend analysis with **rolling averages** and **period-over-period deltas**
-
-#### 🗺️ Geography & Market Mix
-- City/zone performance breakdowns
-- **Geo-visuals** (maps and heatmaps) for demand concentration
-- Identification of under-served areas
-
-#### 🚦 Supply & Operations
-- Driver utilization and wait times
-- Completion rate, ETA, and surge window monitoring
-
-#### 🚘 Product Analytics
-- Performance by product category (UberX, UberXL, etc.)
-- Pricing and promotional effectiveness comparisons
-
-#### 🔁 Quality & Retention
-- Cancellation trends and root-cause indicators
-- Cohort-style views for repeat ride behavior
+| Category | Details |
+|---|---|
+| ⏱️ **Time Intelligence** | Peak demand by hour, weekday & season; rolling averages; YoY/PoP deltas |
+| 🗺️ **Geography & Market Mix** | City/zone performance; geo-visuals (maps & heatmaps); under-served area detection |
+| 🚦 **Supply & Operations** | Driver utilization, wait times, completion rate, ETA, surge windows |
+| 🚘 **Product Analytics** | UberX, UberXL & other categories; pricing & promo effectiveness |
+| 🔁 **Quality & Retention** | Cancellation trend analysis; cohort-style repeat rider views |
 
 ---
 
-### 📌 Key KPIs (Metrics)
+### 📌 Key KPIs
 
 | KPI | Description |
 |---|---|
-| 🚗 Total Trips | Overall ride volume |
-| 👤 Active Drivers | Supply-side headcount |
-| ✅ Completion Rate | Trips completed vs. requested |
-| ⏳ Average ETA / Wait Time | Supply efficiency metric |
-| ❌ Cancellation Rate | Demand-side friction indicator |
-| 💰 Revenue / GMV | Gross monetary value |
-| 📦 Trips by Product Type | Category breakdown |
-| 🌍 Trips by City/Zone | Geographic segmentation |
-| 🕐 Peak Hour / Busiest Day | Time-demand concentration |
+| 🚗 Total Trips | Overall ride volume across all cities and product types |
+| 👤 Active Drivers | Supply-side headcount — drivers who completed at least one trip |
+| ✅ Completion Rate | % of requested trips that were successfully completed |
+| ⏳ Average ETA / Wait Time | Key supply efficiency indicator for rider satisfaction |
+| ❌ Cancellation Rate | Demand-side friction — segmented by reason and city |
+| 💰 Revenue / GMV | Gross monetary value across all product types |
+| 📦 Trips by Product Type | Category-level volume breakdown |
+| 🌍 Trips by City/Zone | Geographic segmentation for market-level views |
+| 🕐 Peak Hour / Busiest Day | Demand concentration by time dimension |
 
 ---
 
 ### 📄 Dashboard Pages
 
-| Page | Content |
+| Page | What You'll Find |
 |---|---|
-| **Overview** | Executive KPIs with quick filters (time, city, product) |
-| **Demand Trends** | Hourly/weekly seasonality and growth rates |
-| **Supply & Ops** | Driver availability, utilization, wait/ETA, surge |
-| **Geography** | City/zone heatmaps, top/bottom performing areas |
-| **Product Mix** | Category performance, pricing and promo effects |
-| **Cancellations** | Trend analysis and drill-through diagnostics |
+| **Overview** | Executive KPIs with quick filters — time, city, product |
+| **Demand Trends** | Hourly/weekly seasonality, growth rates, rolling averages |
+| **Supply & Ops** | Driver availability, utilization, wait/ETA, surge windows |
+| **Geography** | City/zone heatmaps, top and bottom performing areas |
+| **Product Mix** | Category performance, pricing and promotional effects |
+| **Cancellations** | Trend analysis with drill-through diagnostics |
 
 **Common Interactions:**
-- Cross-highlighting across all charts
-- Drill-through from summaries to detail views
-- Bookmarks and tooltips for quick narrative context
+- Cross-highlighting across all visuals
+- Drill-through from summary views to granular detail
+- Bookmarks and dynamic tooltips for quick narrative context
 
 ---
 
-### 🗃️ Data Model
-
-The dashboard uses a **star schema** architecture:
+### 🗃️ Data Model (Star Schema)
 
 ```
-Fact Table (Trips)
+Fact Table: Trips
 ├── 📅 Dim_Date       → Year, Quarter, Month, Week, Day, Hour, IsWeekend, Season
-├── 🌍 Dim_City/Zone  → Geographic hierarchy
-├── 🚗 Dim_Product    → Product category (UberX, UberXL, etc.)
-├── 👤 Dim_Driver     → Driver attributes
-└── 🙋 Dim_Rider      → Rider segmentation
+├── 🌍 Dim_City/Zone  → Geographic hierarchy and tier classification
+├── 🚗 Dim_Product    → Product category (UberX, UberXL, Pool, etc.)
+├── 👤 Dim_Driver     → Driver attributes and segment
+└── 🙋 Dim_Rider      → Rider cohort and retention segment
 ```
 
-- **DAX measures** for KPIs, YoY/PoP comparisons, rolling windows, and segmentation
-- **Dedicated Date table** for robust time intelligence
+- **DAX measures** covering KPIs, YoY/PoP comparisons, rolling windows, and cohort segmentation
+- **Dedicated Date table** with full time intelligence support (fiscal, calendar, seasonal)
 
 ---
 
 ### ⚙️ How to Customize
 
-**Add or modify filters:**
-> Use _Edit Interactions_ and _Sync Slicers_ in the View tab
+**🔧 Add or modify filters**
+> Use *Edit Interactions* and *Sync Slicers* in the View ribbon to control cross-filter behavior.
 
-**Adjust KPIs:**
-> Create or edit DAX measures in the **Model view**
+**📐 Adjust KPIs**
+> Create or edit DAX measures in **Model view** → New Measure.
 
-**Add geospatial layers:**
-> Ensure latitude/longitude or well-formed geographic fields are present in your data
+**🗺️ Add geospatial layers**
+> Ensure your data includes latitude/longitude or well-formed geographic hierarchy columns.
 
-**Performance tuning:**
-> Disable auto-date/time, reduce high-cardinality columns, and use aggregations where needed
-
----
-
-### 🚀 Performance Tips
-
-- Prefer **numeric surrogate keys** for relationships
-- **Summarize granular tables** (e.g., by minute/hour) when appropriate
-- Limit expensive **calculated columns** — move logic to Power Query where possible
-- Use **incremental refresh** for large historical datasets
-- Avoid **bi-directional filters** unless strictly necessary
+**⚡ Performance tuning**
+> Disable auto-date/time, reduce high-cardinality columns, and leverage aggregations where possible.
 
 ---
 
-## 🛒 Project 2 — BlinkIT Grocery Data
+### 🚀 Performance Best Practices
 
-The repository also includes `BlinkIT Grocery Data Excel.xlsx` — a structured dataset for grocery analytics, suitable for building inventory, sales, and outlet performance dashboards in Power BI.
+- Prefer **numeric surrogate keys** for all table relationships
+- **Summarize high-granularity tables** (e.g., minute-level → hour-level) when full grain isn't needed
+- Keep **calculated columns minimal** — push logic to Power Query (M) for better performance
+- Use **incremental refresh** for large historical trip datasets
+- Avoid **bi-directional filters** unless strictly required by the report logic
 
-**Potential use cases:**
-- Outlet-level sales performance
-- Product category and fat content analysis
-- Item visibility vs. sales correlation
-- Tier-wise location performance
+---
+
+## 🛒 Project 2 — BlinkIT Grocery Analytics Data
+
+The repository includes **`BlinkIT Grocery Data Excel.xlsx`** — a structured, ready-to-use dataset for building grocery retail analytics dashboards in Power BI.
+
+### Dataset Highlights
+
+| Field Category | Examples |
+|---|---|
+| 📦 Product Info | Item name, type, fat content, category |
+| 🏪 Outlet Info | Outlet ID, size, location tier, establishment year |
+| 💵 Sales Metrics | Item sales, item visibility, item MRP (price) |
+| ⭐ Ratings | Customer rating per outlet-item combination |
+
+### Potential Dashboard Use Cases
+
+- **Outlet-level sales performance** — Which outlets drive the most revenue?
+- **Product category analysis** — Which item types sell best?
+- **Fat content breakdown** — Regular vs. low-fat product performance
+- **Item visibility vs. sales** — Does shelf visibility drive conversions?
+- **Tier-wise location performance** — Tier 1 vs. Tier 2 vs. Tier 3 city comparison
+- **Outlet age analysis** — Does establishment year affect sales?
 
 ---
 
 ## 🛠️ Requirements
 
-- **Power BI Desktop** (latest version recommended)
-- **Microsoft Excel** (for `.xlsx` data source)
-- Basic understanding of DAX and Power Query (for customization)
+| Tool | Purpose |
+|---|---|
+| **Power BI Desktop** (latest) | Open and edit `.pbix` dashboard files |
+| **Microsoft Excel** | View/edit the `.xlsx` source data |
+| **DAX knowledge** (basic) | Customize existing measures and KPIs |
+| **Power Query knowledge** (basic) | Modify data transformation steps |
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SatyendraPrajapati456/Power_BI_Tools.git
-   ```
+```bash
+# 1. Clone this repository
+git clone https://github.com/SatyendraPrajapati456/Power_BI_Tools.git
 
-2. **Open the `.pbix` file** in Power BI Desktop
+# 2. Navigate into the project folder
+cd Power_BI_Tools
+```
 
-3. **Connect your data source** or explore the dashboard with sample data
+Then:
+1. Open `Uber DashBoard/` → double-click the `.pbix` file to open in **Power BI Desktop**
+2. **Explore** the dashboard using built-in sample data
+3. **Connect your own data source** by updating the data source settings in Transform Data
+4. **Customize** KPIs, visuals, and slicers to suit your use case
+5. **Publish** to Power BI Service to share with your team
 
-4. **Customize** KPIs, slicers, and layouts to match your use case
+---
 
-5. **Publish** to Power BI Service for team sharing
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve an existing dashboard or add a new one:
+
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/new-dashboard`)
+3. Commit your changes
+4. Open a Pull Request with a description of what you've added
 
 ---
 
 ## 👤 Author
 
 **Satyendra Prajapati**
-- GitHub: [@SatyendraPrajapati456](https://github.com/SatyendraPrajapati456)
+- 🔗 GitHub: [@SatyendraPrajapati456](https://github.com/SatyendraPrajapati456)
 
 ---
 
 ## 📜 License
 
-This project is open for learning and personal use. Please credit the author if you build upon these dashboards.
+This project is open for learning and personal use. Please credit the original author if you build upon or share these dashboards.
 
 ---
 
-> ⭐ **If this project helped you, give it a star!** It motivates continued improvements and new dashboard additions.
+<p align="center">
+  ⭐ <strong>Found this useful? Give it a star!</strong> It encourages continued improvements and new dashboard additions. ⭐
+</p>
