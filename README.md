@@ -19,12 +19,15 @@ Power_BI_Tools/
 │
 ├── 📂 Uber DashBoard/                      # Uber Ride Operations Dashboard (.pbix + screenshots)
 │   ├── 📊 Uber Dashboard.pbix
-│   ├── 🖼️ Screenshot 2025-08-19 204443.png  # Overview KPIs
-│   ├── 🖼️ Screenshot 2025-08-19 204505.png  # Demand & Trends
-│   ├── 🖼️ Screenshot 2025-08-19 204521.png  # Supply & Ops / Customization
-│   └── 🖼️ Screenshot 2025-08-19 205057.png  # Geography & Performance
+│   ├── 🖼️ <img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/9e97d654-dea4-4247-a7c8-762d39b0e2db" />
+  # Overview KPIs
+│   ├── 🖼️ <img width="1290" height="731" alt="Screenshot 2026-03-30 231702" src="https://github.com/user-attachments/assets/1e606e80-60bd-4b06-b465-2029afe90a20" />
+ # Demand & Trends
+│   ├── 🖼️ <img width="1292" height="731" alt="Screenshot 2026-03-30 231748" src="https://github.com/user-attachments/assets/0b1655f7-48c4-4148-b315-39d4e70a472e" />
+  # Supply & Ops / Customization
+│   └── 🖼️ <img width="1293" height="732" alt="Screenshot 2026-03-30 231719" src="https://github.com/user-attachments/assets/bf2f0de4-9803-43cc-abe6-599b8fa3b690" />
+  # Geography & Performance
 │
-├── 📄 BlinkIT Grocery Data Excel.xlsx      # Source dataset for BlinkIT grocery analytics
 └── 📄 README.md
 ```
 
